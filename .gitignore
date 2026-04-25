@@ -1,0 +1,35 @@
+# Qt Creator generated
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# Build artifacts
+build-debug/
+build-release/
+debug/
+release/
+*.o
+*.obj
+*.exe
+Makefile
+Makefile.*
+*.d
+
+# Prebuilt third-party libraries (too large for git)
+ffmpeg-4.2.2/
+opencv-4.5.4-with_contrib_qt_5.12.11_x86_mingw32/
+opencv-release/
+dll/
+
+# Generated UI headers
+ui_*.h
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Misc
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
